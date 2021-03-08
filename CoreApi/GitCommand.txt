@@ -1,0 +1,11 @@
+1. Pahle git softwear install kare .Phir Right Click kisi bhi drive ya folder ke anadr and select kare BASHE HERE and command open
+2. Folder ka name or ki git repositry ka naam same hona chhhiye phir cammnd mai 
+enter kare {git config --global user.name "haldia721607"}
+3. uske bada enter kare {git config --global user.email "myemailtest23072018@gmail.com"}
+4. uske bada enter kare {git clone https://github.com/haldia721607/GitRepositryName}
+   clone create hone ke baad ushme project ko paist kare
+5. phir ye command chhalaye/ ye command drive ke folder ke path hai aap jo drive ko select kare ushka path de {cd C:\GitRepositryName}
+6. ye command status check ke liye hai {git status}
+7. ye file ko add ke liye hai {git add .}
+8. add hone ke baad ye commit ke liye ye command chalaye {git commit -m "Isheke undar commant pass kare compulsary hai"}
+9. final project ko push kare {git push origin master}
