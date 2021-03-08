@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmpManagmentWebApiBOL\EmpManagmentWebApiBOL.csproj" />
+    <ProjectReference Include="..\EmpManagmentWebApiDAL\EmpManagmentWebApiDAL.csproj" />
+    <ProjectReference Include="..\EmpManagmentWebApiIBLL\EmpManagmentWebApiIBLL.csproj" />
+  </ItemGroup>
+
+</Project>
